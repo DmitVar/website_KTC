@@ -1,0 +1,36 @@
+.item__container{
+	display: flex;
+}
+.text__container{
+	width: 50%;
+}
+.image__container{
+	width: 50%;
+	padding-top: 5vw;
+	text-align: center;
+}
+.image__container img{
+	max-width: 70%;
+	min-width: 70%;
+}
+.item__text{
+	padding: 1vw;
+}
+.item__text p{
+	padding: 0.5vw;
+	font-family: Montserrat;
+	font-size: 1vw;
+	line-height: 110%;
+	text-align: justify;
+}
+.title{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 1.2vw;
+	line-height: 110%;
+	text-align: justify;
+	color: #4888E7;
+}
+.characters{
+	font-weight: 700;
+}

@@ -1,0 +1,72 @@
+.partners__container{
+	width: 100vw;
+	height: 42.2vw;
+	background-image: url(../../../public/image/partners.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.partners__container h2{
+	font-family: Oswald;
+  	font-weight: 200;
+  	font-size: 3vw;
+  	line-height: 100%;
+  	color: black;
+	text-align: center;
+	border: none;
+}
+.horizont__line{
+	margin: 0 auto;
+	width: 20vw;
+	height: 2vw;
+	border-bottom: 1px solid #364552;
+}
+.logo__box{
+	padding: 2vw;
+	margin: 0 auto;
+	width: 80vw;
+	height: 35vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: safe center;
+	justify-content: space-between;
+}
+.bch__logo{
+	margin: 0.9vw;
+	display: block;
+	width: 14vw;
+	height: 5vw;
+}
+.czi__logo{
+	margin: 0.5vw;
+	display: block;
+	width: 10vw;
+	height: 5vw;
+}
+.belint__logo{
+	padding-bottom: 2vw;
+	margin: 0.5vw;
+	display: block;
+	width: 12vw;
+	height: 10vw;
+}
+.stadler__logo{
+	margin: 0.5vw;
+	display: block;
+	width: 20vw;
+	height: 2.5vw;
+}
+.bzdp__logo{
+	margin: 0.5vw;
+	display: block;
+	width: 20vw;
+	height: 2vw;
+}
+
+.partners__blind{
+	padding-top: 2vw;
+	width: 100vw;
+	height: 42.2vw;
+	background-color:rgba(183, 181, 181, 0.7);
+	z-index: 1000;
+}

@@ -1,0 +1,72 @@
+.about-as__conteiner{
+	width: 100vw;
+  height: 90vh;
+  display: flex;
+}
+.about-as__menu{
+	width: 25vw;
+	height: 90vh;
+	background-image: url(../../../public/image/aboutAs1.jpg);
+	background-position: left;
+	background-repeat:no-repeat;
+	background-size:cover
+
+}
+.about-menu__blind{
+	padding: 0 2vw;
+	width: 25vw;
+	height: 90vh;
+	background-color: rgba(12, 12, 32, 0.6);
+}
+.about__place{
+	width: 75vw;
+	height: 90vh;
+	position: relative;	
+}
+.about__place img{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75vw;
+	height: 42.20vw;
+}
+.about-place__blind{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75vw;
+	height: 42.20vw;
+	background-color:rgba(255, 255, 255, 0.7);
+	z-index: 1000;
+}
+.about__place p{
+	padding: 0.5vw 1.5vw;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 1.3vw;
+	line-height: 130%;
+	text-align: justify;
+	text-indent: 2vw;
+}
+.about-menu__blind ul{
+	padding: 1vw;
+}
+.about-menu__blind li{
+	padding: 0.3vw;
+	font-family: Oswald;
+  	font-weight: 200;
+  	font-size: 2vw;
+  	line-height: 160%;
+  	color: #FFFFFF;
+	cursor: pointer;
+}
+h2{
+	font-family: Oswald;
+  	font-weight: 200;
+  	font-size: 2vw;
+  	line-height: 160%;
+  	color: #FFFFFF;
+	text-align: center;
+	border-bottom: 1px solid #FFFFFF;
+}

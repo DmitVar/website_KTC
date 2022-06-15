@@ -1,0 +1,14 @@
+h3{
+	font-family: Oswald;
+  	font-weight: 400;
+  	font-size: 2vw;
+  	line-height: 160%;
+	text-align: center;
+}
+p{
+	padding: 1vw;
+	font-family: Montserrat;
+	font-size: 1.5vw;
+	line-height: 160%;
+	text-align: justify;
+}
