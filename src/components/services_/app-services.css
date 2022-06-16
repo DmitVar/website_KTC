@@ -1,11 +1,11 @@
 .services__conteiner{
 	width: 100vw;
-  height: 90vh;
+  height: 42.20vw;
   display: flex;
 }
 .services__menu{
 	width: 25vw;
-	height: 90vh;
+	height: 42.20vw;
 	background-image: url(../../../public/image/services.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -14,13 +14,13 @@
 .services-menu__blind{
 	padding: 0 2vw;
 	width: 25vw;
-	height: 90vh;
+	height: 42.20vw;
 	background-color: rgba(12, 12, 32, 0.6);
 }
 .services__place{
 	padding: 0 2vw 0 3vw;
 	width: 75vw;
-	height: 90vh;
+	height: 42.2vw;
 	position: relative;
 	overflow: auto;
 }

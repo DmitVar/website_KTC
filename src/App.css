@@ -7,3 +7,12 @@ a{
 	color: #FFFFFF;
 	font-size: 1.2vw;
 }
+.logo-menu__box{
+	width: 3.5vw;
+	height: 3.5vw;
+	padding-top: 0.4vw;
+}
+.logo-menu__box img{
+	width: 3.5vw;
+	height: 3.5vw;
+}

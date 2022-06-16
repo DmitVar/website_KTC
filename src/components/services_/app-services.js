@@ -135,7 +135,7 @@ class AppServices extends Component{
 						</div>
 					</div>
 					<div className="services__place">
-					<img src="image/servicesBack.jpeg" alt="" />
+					<img src="image/services_back.jpg" alt="" />
 						<div className="service-place__blind">
 							<AppServiceItem title={this.state.title} text={this.state.text}/>
 						</div>

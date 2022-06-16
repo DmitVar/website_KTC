@@ -26,8 +26,8 @@ class App extends Component{
          <menu>
           <div className="menu__navigation">
             <div className="navigation__container">
-              <div>
-					        <img src="image/Logo-ktc.png" alt="Logo-ktc" />
+              <div className='logo-menu__box'>
+					        <img src="image/logoKTC.png" alt="Logo-ktc" />
 					    </div>
               <nav>
                 <button type="button"><NavLink to='/'>ГЛАВНАЯ</NavLink></button>

@@ -19,7 +19,7 @@ header{
   background-size: cover;
 }
 menu{
-  height: 10vh;
+  height: 4.7vw;
   background-color:#364552;
 }
 .blind{
@@ -30,9 +30,6 @@ menu{
 .menu__navigation {
   padding-top: 10px;
 }
-.logo__box{
-	background-image: url(../public/image/Logo-ktc.png)
- }
 .navigation__container {
   width: 80vw;
   height: 3.125vw;
