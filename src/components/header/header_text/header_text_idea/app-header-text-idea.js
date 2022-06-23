@@ -9,10 +9,11 @@ class AppHeaderTextIdea extends  Component{
 	}
 	showBlockIdea = () =>{
 		let timer = setInterval(() =>{
-			this.setState(state => ({
-				left: state.left - 1
-			}));
-			if(this.state.left < 3){
+			if(this.state.left > 0){
+				this.setState(state => ({
+					left: state.left - 1
+				}));
+			}else{
 				clearInterval(timer)
 			}
 		}, 25)

@@ -10,10 +10,11 @@ class AppHeaderVerticalLine extends Component{
 	}
 	showVerticalLine = () =>{
 		let timer = setInterval(() =>{
-			this.setState(state => ({
-				opacity: state.opacity + 0.1
-			}));
-			if(this.state.opacity > 0.7){
+			if(this.state.opacity < 1){
+				this.setState(state => ({
+					opacity: state.opacity + 0.1
+				}));				
+			}else{
 				clearInterval(timer)
 			}
 		}, 150)

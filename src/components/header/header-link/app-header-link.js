@@ -10,11 +10,13 @@ class AppHeaderLink extends Component{
 		
 	}
 	showHeaderLink = () =>{
+		console.log('show');
 		let timer = setInterval(() =>{
-			this.setState(state => ({
+			if(this.state.left < 0){
+				this.setState(state => ({
 				left: state.left + 1
-			}));
-			if(this.state.left > -3){
+				}));
+			}else{
 				clearInterval(timer)
 			}
 		}, 25)
